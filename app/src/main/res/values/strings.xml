@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signing_in">Google-ekin logeatu</string>
+    <string name="signing_out">Ateratzen...</string>
+    <string name="app_name">Marranita</string>
+    <string name="sign_in_explanation">Sign with Google to upload your achievements and share with friends.</string>
+    <string name="you_are_signed_in">Google-ekin logeatuta.</string>
+    <string name="sign_out">Atera</string>
+    <string name="victory">Garaipena!</string>
+    <string name="you_won">OK! Zu irabazle!</string>
+    <string name="splash_icon_description">Splash screen image</string>
+    <string name="start_match">Hasi partida berria</string>
+    <string name="check_games">Begiratu partidak</string>
+
+</resources>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="1" android:background="#ffffff">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView android:id="@+id/izena_1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Izena1"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/izena_2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Izena2"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/izena_3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Izena3"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/izena_4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Izena4"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/izena_5"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Izena5"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView android:id="@+id/puntuk_1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="135"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/puntuk_2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="115"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/puntuk_3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="150"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/puntuk_4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="105"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/puntuk_5"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="155"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+        </TableRow>
+        <TableRow android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:id="@+id/tableRow">
+            <TextView android:id="@+id/bazak_1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceSmall"
+                      android:text="0 / 2"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/bazak_2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="0 / 3"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/bazak_3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="0 / 1"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/bazak_4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="0 / 3"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+            <TextView android:id="@+id/bazak_5"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="0 / 0"
+                      android:layout_weight="1"
+                      android:gravity="center" android:textColor="#4a4a4a"/>
+        </TableRow>
+    </TableLayout>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="3dp"
+            android:layout_weight="2" android:background="#00961f">
+        <ImageView
+                android:id="@+id/karta_ezker_goran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/detras"
+                android:layout_gravity="left|center_vertical"/>
+        <ImageView
+                android:id="@+id/karta_eskuin_goran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/detras"
+                android:layout_gravity="right|center_vertical"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:padding="3dp"
+                 android:layout_weight="2" android:background="#00961f">
+        <ImageView android:id="@+id/karta_ezker_beheran"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/detras"
+                   android:layout_gravity="left|center_vertical"/>
+        <ImageView android:id="@+id/karta_erdin_beheran"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/detras"
+                   android:layout_gravity="center"/>
+        <ImageView android:id="@+id/karta_eskuin_beheran"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/detras"
+                   android:layout_gravity="right|center_vertical"/>
+        <LinearLayout
+                android:id="@+id/eskatu_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone">
+            <Button
+                    android:id="@+id/eskatu_0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"/>
+            <Button
+                    android:id="@+id/eskatu_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"/>
+            <Button
+                    android:id="@+id/eskatu_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2"/>
+            <Button
+                    android:id="@+id/eskatu_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3"/>
+            <Button
+                    android:id="@+id/eskatu_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4"/>
+            <Button
+                    android:id="@+id/eskatu_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5"/>
+            <Button
+                    android:id="@+id/eskatu_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6"/>
+            <Button
+                    android:id="@+id/eskatu_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7"/>
+            <Button
+                    android:id="@+id/eskatu_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="8"/>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="#00961f"
+            android:layout_gravity="center">
+        <ImageView android:id="@+id/karta_0"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+        <ImageView android:id="@+id/karta_1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+        <ImageView android:id="@+id/karta_2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+        <ImageView android:id="@+id/karta_3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+        <ImageView android:id="@+id/karta_4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+        <ImageView android:id="@+id/karta_5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+        <ImageView android:id="@+id/karta_6"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+        <ImageView android:id="@+id/karta_7"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/bastos_10s"
+                   android:layout_weight="1"/>
+    </LinearLayout>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <ImageView
+                android:id="@+id/triunfo_irudie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:src="@drawable/copas_triunfo"/>
+        <TextView
+                android:id="@+id/triunfo_textue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kopak"
+                android:layout_gravity="center"/>
+    </FrameLayout>
+</LinearLayout>

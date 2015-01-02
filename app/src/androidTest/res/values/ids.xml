@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">659449423961</string>
+    <string name="achievement_first_victory">CgkI2dD-0ZgTEAIQAQ</string>
+    <string name="achievement_10th_victory">CgkI2dD-0ZgTEAIQAw</string>
+    <string name="achievement_100th_victory">CgkI2dD-0ZgTEAIQBA</string>
+    <string name="achievement_200_points">CgkI2dD-0ZgTEAIQBQ</string>
+    <string name="achievement_300_points">CgkI2dD-0ZgTEAIQBg</string>
+    <string name="leaderboard_high_score">CgkI2dD-0ZgTEAIQBw</string>
+</resources>
